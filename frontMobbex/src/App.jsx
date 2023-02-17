@@ -1,13 +1,11 @@
+import MobbexSDK from "./Service/Mobbex/index.jsx";
+
 function App() {
-  return <div className="App">
-    <div>
-      <a href="">
-        <p>
-          Hola world
-        </p>
-      </a>
+  return (
+    <div className="App">
+      <MobbexSDK />
     </div>
-  </div>;
+  );
 }
 
 export default App;
